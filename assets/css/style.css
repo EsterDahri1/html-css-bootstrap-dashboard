@@ -1,0 +1,13 @@
+:root{
+    --bg_body: #f8f9fa;
+}
+
+body{
+    background-color: var(--bg_body);
+}
+
+#site_header{
+    height: 70px;
+    background-color: var(--bg_body);
+    border: black 1px dashed;
+}

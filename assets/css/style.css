@@ -1,5 +1,6 @@
 :root{
     --bg_body: #f8f9fa;
+    --bg_sidebar: #051e34;
 }
 
 body{
@@ -14,6 +15,7 @@ body{
 .sidebar{
     width: 150px;
     height: 924px;
+    background-color: var(--bg_sidebar);
     background-image: url(../img/sidebar-bg.png);
     margin-top: 70px;
 }

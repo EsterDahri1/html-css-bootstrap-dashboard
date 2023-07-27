@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <header id="site_header">
+    <header id="site_header" class="fixed-top">
         <nav class="navbar navbar-expand mt-2">
             <div class="container-fluid" style="background-color: #ffffff">
                 <img class="pe-4" src="./assets/img/logo.svg" alt="">
@@ -38,13 +38,27 @@
     
     </header>
     <!-- /#site_header -->
-    <div class="wrapper">
-        <div class="sidebar">
+    <div class="wrapper d-flex">
+        <div class="sidebar bg-dark">
             <div class="container">
                 <div class="row flex-column">
-                    <div class="top"></div>
+                    <div class="col top mt-4 d-flex flex-column align-items-center">
+                        <button type="button" class="mb-2 btn btn-outline-light border-0"> 
+                            <i class="fa-solid fa-home fa-md pe-2"></i>Home
+                        </button>
+                        <button type="button" class="mb-2 btn btn-outline-light border-0"> 
+                            <i class="fa-solid fa-chart-simple fa-md pe-2"></i> Stats
+                        </button>
+                        <button type="button" class="mb-2 btn btn-outline-light border-0"> 
+                            <i class="fa-solid fa-signal fa-md pe-2"></i> Signals
+                        </button>
+                    </div>
                     <!-- /.top -->
-                    <div class="bottom"></div>
+                    <div class="col bottom align-items-center">
+                        <button type="button" class="mb-2 btn btn-outline-light border-0"> 
+                            <i class="fa-solid fa-gear fa-md pe-2"></i> Admin
+                        </button>
+                    </div>
                     <!-- /.bottom -->
                 </div>
             </div>

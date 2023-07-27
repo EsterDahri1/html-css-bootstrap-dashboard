@@ -9,5 +9,11 @@ body{
 #site_header{
     height: 70px;
     background-color: var(--bg_body);
-    border: black 1px dashed;
+}
+
+.sidebar{
+    width: 150px;
+    height: 924px;
+    background-image: url(../img/sidebar-bg.png);
+    margin-top: 70px;
 }

@@ -16,14 +16,14 @@ body{
 }
 
 .sidebar{
-    width: 300px;
+    width: 150px;
     height: 924px;
     background-color: var(--bg_sidebar);
     background-image: url(../img/sidebar-bg.png);
 }
 
 td img{
-    width: 7%;
+    width: 5%;
 }
 
 #graph{

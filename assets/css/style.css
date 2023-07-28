@@ -22,7 +22,7 @@ body{
 
 .sidebar{
     width: 150px;
-    height: 924px;
+    height: 100%;
     background-color: var(--bg_sidebar);
     background-image: url(../img/sidebar-bg.png);
 }

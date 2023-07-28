@@ -22,6 +22,10 @@ body{
     background-image: url(../img/sidebar-bg.png);
 }
 
+.offcanvas{
+    width:50% !important;
+}  
+
 td img{
     width: 5%;
 }

@@ -9,7 +9,6 @@ body{
 }
 
 #site_header{
-    height: 70px;
     background-color: var(--bg_body);
 }
 
@@ -18,7 +17,7 @@ body{
 }
 
 .wrapper{
-    margin-top: 70px;
+    height: calc(100vh - 70px)
 }
 
 .sidebar{

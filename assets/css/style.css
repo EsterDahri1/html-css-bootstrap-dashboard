@@ -1,6 +1,7 @@
 :root{
     --bg_body: #f8f9fa;
     --bg_sidebar: #051e34;
+    --bs-blue-600: #165bba;
 }
 
 body{
@@ -11,6 +12,11 @@ body{
     height: 70px;
     background-color: var(--bg_body);
 }
+
+#mob_logo{
+    width: 40px;
+}
+
 .wrapper{
     margin-top: 70px;
 }
@@ -22,9 +28,13 @@ body{
     background-image: url(../img/sidebar-bg.png);
 }
 
+.banner span{
+    background-color: #165bba;
+}
+
 .offcanvas{
-    width:50% !important;
-}  
+    width: 50% !important;
+}
 
 td img{
     width: 5%;
